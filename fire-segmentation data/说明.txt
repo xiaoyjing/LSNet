@@ -1,6 +1,8 @@
 annotations：
-xxx.json contains the annotated data information for both the training and validation sets.
+xxx.json分别是训练集和验证集标注的数据信息
 thing_train2017:
-xxx.npz is used to store the data information for the training dataset, stored in a NumPy array format.
-train2017: training dataset.
-val2017: test dataset.
+xxx.npz是用于存储训练数据集的数据信息，存储的是一种numpy形式数组信息
+train2017:
+存储的是训练数据集
+val2017:
+存储的是测试数据集
