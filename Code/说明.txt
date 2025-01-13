@@ -1,10 +1,10 @@
-layers文件夹:
-内部存放的是iou loss损失函数的代码、nms非极大值抑制代码以及注意力机制的代码
-modeling文件夹：
-存放的是模型结构的代码
-1）backbone文件夹存放的是骨干网络代码，如残差网络、特征金字塔结构以及双向特征金字塔结构的代码
-2）roi_heads文件夹存放的是注意力机制的输出头代码，用于网络的输出部分
-3）Networks文件夹存放的是网络结构的代码，用于构建整个网络
-predictor.py是用于数据预测的代码
-test.py是用于数据测试的代码
-train_net.py是用于训练模型的代码
+layers folder:
+Contains the code for the IOU loss function, NMS (Non-Maximum Suppression) code, and the attention mechanism code.
+modeling folder：
+Contains the code for the model structure.
+1）The backbone folder contains the code for the backbone network, such as Residual Networks (ResNet), Feature Pyramid Networks (FPN), and Bi-directional Feature Pyramid Networks (BiFPN).
+2）The roi_heads folder contains the code for the attention mechanism output heads, used for the network's output part.
+3）The Networks folder contains the code for the network structure, used to build the entire network.
+predictor.py： data prediction.
+test.py：data testing.
+train_net.py：training the model.
