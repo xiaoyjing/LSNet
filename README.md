@@ -87,6 +87,30 @@ Table 1 Comparing LSNet with state-of-the-art networks in terms of AP50, speed, 
 
 ![img](https://github.com/xiaoyjing/LSNet/blob/master/img/5.png)
 Fig. 5. (a) total loss and (b) mask loss of the LSNet compared with the other state-of-the-art networks.
-
-This repository is a full implementation of LSNet:A Lightweight Segmentation Framework for Real-Time Wildfire Detection, building a new real-time wildfire segmentation framework for wildfire detection.
-This repository demonstrates the architecture of the LSNet model and the effectiveness and robustness of the scheme. Our implementation supports both single and multi-GPU training.
+# Implementation
+## Training
+Run LSNet for single gpu:
+```
+CUDA_VISIBLE_DEVICES=0 python train_netpy
+```
+Run LSNet for two gpu:
+```
+CUDA_VISIBLE_DEVICES=0,1 python train_netpy
+```
+## Testing
+```
+CUDA_VISIBLE_DEVICES=2 python test.py
+```
+# Acknowledgement
+The code is based on [Mask R-CNN](https://gitcode.com/gh_mirrors/ma/maskrcnn-benchmark/tree/main).
+# Citation
+If you find this work useful in your research, please consider cite:
+```
+@article{Huang2025LSNet,
+  title={LSNet: A Lightweight Segmentation Framework for Real-Time Wildfire Detection},
+  author={Cheng Zhang and Zhuoyue Ding and Lei Huang},
+  booktitle ={xxx},
+  month = {Jan},
+  year={2025}
+}
+```
