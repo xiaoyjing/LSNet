@@ -35,27 +35,44 @@ git clone https://github.com/xiaoyjing/LSNet/edit/master/EPNet.git
 b. Install the dependent python libraries like tqdm, tensorboardX  etc.
 # Dataset preparation
 Please download the fire-smoke dataset and organize the downloaded files as follows:
->LSNet
->>Code
->>fire-segmentation data
->>>layers
->>>>bezier_align.py
->>>annotations
->>>things_train2017
->>>train2017
->>>val2017
->>>>
 ```
-EPNet
-├── data
+LSNet
+├── fire-segmentation data
 │   ├── KITTI
-│   │   ├── ImageSets
-│   │   ├── object
+│   │   ├── annotations
+│   │   ├── things_train2017
+│   │   ├── train2017
+│   │   ├── val2017
 │   │   │   ├──training
 │   │   │      ├──calib & velodyne & label_2 & image_2 & (optional: planes)
 │   │   │   ├──testing
 │   │   │      ├──calib & velodyne & image_2
-├── lib
+├── Code
+│   │   ├── layers
+│   │   │      ├──bezier_align.py
+│   │   │      ├──def_roi_align.py
+│   │   │      ├──deform_conv.py
+│   │   │      ├──gcn.py
+│   │   │      ├──iou_loss.py
+│   │   │      ├──ml_nms.py
+│   │   ├── modeling
+│   │   │      ├──backbone
+│   │   │      |     ├──bifpn.py
+│   │   │      |     ├──dla.py
+│   │   │      |     ├──fpn.py
+│   │   │      |     ├──lpf.py
+│   │   │      |     ├──mobilenet.py
+│   │   │      |     ├──resnet_interval.py
+│   │   │      |     ├──resnet_lpf.py
+│   │   │      |     ├──vovnet.py
+│   │   │      ├──Networks
+│   │   │      |     ├──blender.py
+│   │   │      |     ├──nn.py
+│   │   │      ├──roi_heads
+│   │   │      |     ├──attn_predictor.py
+│   │   ├── predictor.py
+│   │   ├── test.py
+│   │   ├── train_net.py
 ├── pointnet2_lib
 ├── tools
 ```
