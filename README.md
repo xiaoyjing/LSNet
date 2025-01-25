@@ -20,13 +20,13 @@ Fig. 4. Structure of the LSNet.
 # Install(Same with Mask R-CNN)
 The Environment：
 
--PyTorch 1.0 from a nightly release. It will not work with 1.0 nor 1.0.1. 
-*cocoapi
-*yacs
-*matplotlib
-*GCC >= 4.9
-*OpenCV
-+CUDA >= 9.0
+- PyTorch 1.0 from a nightly release. It will not work with 1.0 nor 1.0.1. 
+* cocoapi
+* yacs
+* matplotlib
+* GCC >= 4.9
+* OpenCV
++ CUDA >= 9.0
 a. Clone the PointRCNN repository.
 
 
