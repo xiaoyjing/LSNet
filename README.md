@@ -73,8 +73,13 @@ LSNet
 │   │   ├── predictor.py
 │   │   ├── test.py
 │   │   ├── train_net.py
-├── pointnet2_lib
-├── tools
 ```
+# Trained model
+| 列1 | 列2 | 列3 | |——|——|——| | 数据1 | 数据2 | 数据3 | | 数据4 | 数据5 | 数据6 |
+| 列1 | 列2 | 列3 | |——|——|——| | 数据1 | 数据2 | 数据3 | | 数据4 | 数据5 | 数据6 |
+| 列1 | 列2 | 列3 | |——|——|——| | 数据1 | 数据2 | 数据3 | | 数据4 | 数据5 | 数据6 |
+| 列1 | 列2 | 列3 | |——|——|——| | 数据1 | 数据2 | 数据3 | | 数据4 | 数据5 | 数据6 |
+| 列1 | 列2 | 列3 | |——|——|——| | 数据1 | 数据2 | 数据3 | | 数据4 | 数据5 | 数据6 |
+| 列1 | 列2 | 列3 | |——|——|——| | 数据1 | 数据2 | 数据3 | | 数据4 | 数据5 | 数据6 |
 This repository is a full implementation of LSNet:A Lightweight Segmentation Framework for Real-Time Wildfire Detection, building a new real-time wildfire segmentation framework for wildfire detection.
 This repository demonstrates the architecture of the LSNet model and the effectiveness and robustness of the scheme. Our implementation supports both single and multi-GPU training.
