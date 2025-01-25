@@ -9,11 +9,14 @@ This is Pytorch implementation for LSNet on fire-smoke dataset, which is mainly 
 # Abstract
 Wildfires pose significant threats to both human safety and the environment, necessitating prompt detection and localization. Deep learning algorithms, particularly those for image segmentation, offer promising solutions but often suffer from computational delays that hinder real-time applications. In this paper, we introduce LSNet, a lightweight segmentation network designed for real-time wildfire detection. LSNet comprises an encoder with a parallel feature multiplier and a residual feature extractor to reduce computational load and enhance segmentation speed, and a decoder with an attentional feature-pyramid structure to improve accuracy. Experimental results demonstrate that LSNet achieves a speed of 31 FPS, an AP50 of 65.1%, and a model size of 274 MB during training, outperforming SOLOv2. Testing results further confirm its efficacy with 30 FPS and an AP50 of 72.3%, meeting the requirements for real-time wildfire detection. Thus, LSNet presents a viable solution for timely wildfire identification and localization.
 ![img](https://github.com/xiaoyjing/LSNet/blob/master/img/1.png)
-![img]([https://github.com/xiaoyjing/LSNet/blob/master/img/3.png]
+Fig. 1. Schematic diagram of the LSNet for the real-time detection of wildfires.
+![img](https://github.com/xiaoyjing/LSNet/blob/master/img/3.png)
+Fig. 2. Results of four wildfire images containing (a) large, (b) medium, (c) small, and (d) dense targets.
 # Network
 ![img](https://github.com/xiaoyjing/LSNet/blob/master/img/4.png)
 Fig. 3. Schematic diagrams of: (a) encoder; (b) FEB; (c) decoder with AFPS; (d) CBAM.
 ![img](https://github.com/xiaoyjing/LSNet/blob/master/img/2.png)
+Fig. 4. Structure of the LSNet.
 
 
 
