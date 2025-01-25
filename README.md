@@ -26,7 +26,7 @@ The Environment：
 * matplotlib
 * GCC >= 4.9
 * OpenCV
-+ CUDA >= 9.0\
++ CUDA >= 9.0
 
 a. Clone the PointRCNN repository.
 ```
@@ -85,6 +85,8 @@ Table 1 Comparing LSNet with state-of-the-art networks in terms of AP50, speed, 
 | SOLQ | 12 | 60.5 | 476 |
 | LSNet | 31 | 65.1 | 274 |
 
+![img](https://github.com/xiaoyjing/LSNet/blob/master/img/5.png)
+Fig. 5. (a) total loss and (b) mask loss of the LSNet compared with the other state-of-the-art networks.
 
 This repository is a full implementation of LSNet:A Lightweight Segmentation Framework for Real-Time Wildfire Detection, building a new real-time wildfire segmentation framework for wildfire detection.
 This repository demonstrates the architecture of the LSNet model and the effectiveness and robustness of the scheme. Our implementation supports both single and multi-GPU training.
