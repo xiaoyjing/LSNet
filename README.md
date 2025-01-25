@@ -84,5 +84,7 @@ Table 1 Comparing LSNet with state-of-the-art networks in terms of AP50, speed, 
 | E2EC | 30 | 62.9 | 113 |
 | SOLQ | 12 | 60.5 | 476 |
 | LSNet | 31 | 65.1 | 274 |
+
+
 This repository is a full implementation of LSNet:A Lightweight Segmentation Framework for Real-Time Wildfire Detection, building a new real-time wildfire segmentation framework for wildfire detection.
 This repository demonstrates the architecture of the LSNet model and the effectiveness and robustness of the scheme. Our implementation supports both single and multi-GPU training.
