@@ -75,11 +75,14 @@ LSNet
 │   │   ├── train_net.py
 ```
 # Trained model
-| 列1 | 列2 | 列3 | |——|——|——| | 数据1 | 数据2 | 数据3 | | 数据4 | 数据5 | 数据6 |
-| 列1 | 列2 | 列3 | |——|——|——| | 数据1 | 数据2 | 数据3 | | 数据4 | 数据5 | 数据6 |
-| 列1 | 列2 | 列3 | |——|——|——| | 数据1 | 数据2 | 数据3 | | 数据4 | 数据5 | 数据6 |
-| 列1 | 列2 | 列3 | |——|——|——| | 数据1 | 数据2 | 数据3 | | 数据4 | 数据5 | 数据6 |
-| 列1 | 列2 | 列3 | |——|——|——| | 数据1 | 数据2 | 数据3 | | 数据4 | 数据5 | 数据6 |
-| 列1 | 列2 | 列3 | |——|——|——| | 数据1 | 数据2 | 数据3 | | 数据4 | 数据5 | 数据6 |
+Table 1 Comparing LSNet with state-of-the-art networks in terms of AP50, speed, and model size.
+| Network | Speed (FPS) | AP50 (%) | Model size (MB) |
+| --- | --- | --- | --- |
+| BoxInst | 20 | 60.7 | 406 |
+| Mask R-CNN | 18 | 61.0 | 483 |
+| SOLOv2 | 14 | 63.5 | 499 |
+| E2EC | 30 | 62.9 | 113 |
+| SOLQ | 12 | 60.5 | 476 |
+| LSNet | 31 | 65.1 | 274 |
 This repository is a full implementation of LSNet:A Lightweight Segmentation Framework for Real-Time Wildfire Detection, building a new real-time wildfire segmentation framework for wildfire detection.
 This repository demonstrates the architecture of the LSNet model and the effectiveness and robustness of the scheme. Our implementation supports both single and multi-GPU training.
