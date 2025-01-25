@@ -17,7 +17,17 @@ Fig. 2. Results of four wildfire images containing (a) large, (b) medium, (c) sm
 Fig. 3. Schematic diagrams of: (a) encoder; (b) FEB; (c) decoder with AFPS; (d) CBAM.
 ![img](https://github.com/xiaoyjing/LSNet/blob/master/img/2.png)
 Fig. 4. Structure of the LSNet.
+# Install(Same with Mask R-CNN)
+The Environment：
 
+-PyTorch 1.0 from a nightly release. It will not work with 1.0 nor 1.0.1. 
+*cocoapi
+*yacs
+*matplotlib
+*GCC >= 4.9
+*OpenCV
++CUDA >= 9.0
+a. Clone the PointRCNN repository.
 
 
 This repository is a full implementation of LSNet:A Lightweight Segmentation Framework for Real-Time Wildfire Detection, building a new real-time wildfire segmentation framework for wildfire detection.
