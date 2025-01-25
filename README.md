@@ -27,6 +27,7 @@ The Environment：
 * GCC >= 4.9
 * OpenCV
 + CUDA >= 9.0\
+
 a. Clone the PointRCNN repository.
 ```
 git clone https://github.com/xiaoyjing/LSNet/edit/master/EPNet.git
