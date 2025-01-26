@@ -1,5 +1,5 @@
 # LSNet
-A Lightweight Segmentation Framework for Real-Time Wildfire Detection
+Lightweight Segmentation Network for Real-Time Wildfire Detection: LSNet's Parallel Feature Multiplication and Attentional Fusion
 # Highlights
 1、We introduce a lightweight segmentation network, LSNet, consisting of an encoder and a decoder for real-time wildfire detection to minimize threats to both personal safety and the environment.\
 2、We designed an encoder with a parallel feature multiplier (PFM) and a residual feature extractor (RFE) to reduce computational load and enhance segmentation speed, and a decoder with an attentional feature pyramid (AFP) to improve accuracy.\
