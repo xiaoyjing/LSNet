@@ -13,9 +13,9 @@ Fig. 1. Schematic diagram of the LSNet for the real-time detection of wildfires.
 ![img](https://github.com/xiaoyjing/LSNet/blob/master/img/3.png)
 Fig. 2. Results of four wildfire images containing (a) large, (b) medium, (c) small, and (d) dense targets.
 # Network
-![img](https://github.com/xiaoyjing/LSNet/blob/master/img/4.png)
+![img](https://github.com/xiaoyjing/LSNet/tree/master/img/4.png)
 Fig. 3. Schematic diagrams of: (a) encoder; (b) FEB; (c) decoder with AFPS; (d) CBAM.
-![img](https://github.com/xiaoyjing/LSNet/blob/master/img/2.png)
+![img](https://github.com/xiaoyjing/LSNet/tree/master/img/2.png)
 Fig. 4. Structure of the LSNet.
 # Install(Same with Mask R-CNN)
 The Environment：
