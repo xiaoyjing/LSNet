@@ -106,10 +106,10 @@ The code is based on [Mask R-CNN](https://gitcode.com/gh_mirrors/ma/maskrcnn-ben
 # Citation
 If you find this work useful in your research, please consider cite:
 ```
-@article{Huang2025LSNet,
-  title={LSNet: A Lightweight Segmentation Framework for Real-Time Wildfire Detection},
-  author={Cheng Zhang and Zhuoyue Ding and Lei Huang},
-  booktitle ={xxx},
+@article{
+  title={Lightweight Segmentation Network for Real-Time Wildfire Detection: LSNet's Parallel Feature Multiplication and Attentional Fusion},
+  author={Cheng Zhang and Zhuoyue Ding and Xiaoying Jing and Lei Huang and Run Ye and Bin Yan and Xiaojia Zhou and Jinhong Guo},
+  booktitle ={The Visual Computer},
   month = {Jan},
   year={2025}
 }
