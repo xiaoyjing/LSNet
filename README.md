@@ -87,6 +87,15 @@ Table 1 Comparing LSNet with state-of-the-art networks in terms of AP50, speed, 
 
 ![img](https://github.com/xiaoyjing/LSNet/blob/master/img/5.png)
 Fig. 5. (a) total loss and (b) mask loss of the LSNet compared with the other state-of-the-art networks.
+
+Table 2 Training results of ablation experiments.
+| Network | Speed (FPS) | AP50 (%) | Model size (MB) |
+| --- | --- | --- | --- |
+| LSNet_R50 | 20 | 58.3 | 189 |
+| LSNet_R101 | 11 | 64.2 | 364 |
+| LSNet_RP | 32 | 59.1 | 227 |
+| LSNet_RA | 16 | 63.7 | 257 |
+| LSNet | 31 | 65.1 | 274 |
 # Implementation
 ## Training
 Run LSNet for single gpu:
