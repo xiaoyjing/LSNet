@@ -30,7 +30,7 @@ The Environment：
 
 a. Clone the PointRCNN repository.
 ```
-git clone https://github.com/xiaoyjing/LSNet/edit/master/EPNet.git
+git clone https://github.com/xiaoyjing/LSNet.git
 ```
 b. Install the dependent python libraries like tqdm, tensorboardX  etc.
 # Dataset preparation
