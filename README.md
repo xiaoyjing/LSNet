@@ -97,7 +97,7 @@ Table 2 Training results of ablation experiments.
 | LSNet_RA | 16 | 63.7 | 257 |
 | LSNet | 31 | 65.1 | 274 |
 
-Figure 6 shows the influence of the number of slices on speed and AP50, where the number of slices is proportional to the speed and the largest AP50 is 65.1% when the number of slices equals 4. Therefore, the number of slices M was set to 4.
+Figure 6 shows the influence of the number of slices on speed and AP50, where the number of slices is proportional to the speed and the largest AP50 is 65.1% when the number of slices equals 4. Therefore, the number of slices M was set to 4.\
 ![img](https://github.com/xiaoyjing/LSNet/blob/master/img/6.png)\
 Fig. 6. Influence of the number of slices on speed and AP50.
 # Implementation
