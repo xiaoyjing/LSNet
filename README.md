@@ -38,15 +38,14 @@ Please download the fire-smoke dataset and organize the downloaded files as foll
 ```
 LSNet
 ├── fire-segmentation data
-│   ├── KITTI
-│   │   ├── annotations
-│   │   ├── things_train2017
-│   │   ├── train2017
-│   │   ├── val2017
-│   │   │   ├──training
-│   │   │      ├──calib & velodyne & label_2 & image_2 & (optional: planes)
-│   │   │   ├──testing
-│   │   │      ├──calib & velodyne & image_2
+│   ├── annotations
+│   ├── things_train2017
+│   ├── train2017
+│   ├── val2017
+│   │   ├──training
+│   │      ├──calib & velodyne & label_2 & image_2 & (optional: planes)
+│   │   ├──testing
+│   │      ├──calib & velodyne & image_2
 ├── Code
 │   │   ├── layers
 │   │   │      ├──bezier_align.py
