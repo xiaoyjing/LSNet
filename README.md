@@ -91,11 +91,11 @@ Fig. 5. (a) total loss and (b) mask loss of the LSNet compared with the other st
 ## Training
 Run LSNet for single gpu:
 ```
-CUDA_VISIBLE_DEVICES=0 python train_netpy
+CUDA_VISIBLE_DEVICES=0 python train_net.py
 ```
 Run LSNet for two gpu:
 ```
-CUDA_VISIBLE_DEVICES=0,1 python train_netpy
+CUDA_VISIBLE_DEVICES=0,1 python train_net.py
 ```
 ## Testing
 ```
