@@ -97,7 +97,7 @@ Table 2 Training results of ablation experiments.
 | LSNet_RA | 16 | 63.7 | 257 |
 | LSNet | 31 | 65.1 | 274 |
 
-![img](https://github.com/xiaoyjing/LSNet/blob/master/img/6.png)
+![img](https://github.com/xiaoyjing/LSNet/blob/master/img/6.png)\
 Fig. 6. Influence of the number of slices on speed and AP50.
 # Implementation
 ## Training
