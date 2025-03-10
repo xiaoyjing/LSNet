@@ -74,6 +74,10 @@ LSNet
 │   │   ├── test.py
 │   │   ├── train_net.py
 ```
+* Directions: annotations：xxx.json contains the labeled data information for the training set and validation set.
+  thing_train2017:xxx.npz is used to store the data information of the training dataset, stored in a numpy array format.
+  train2017:Contains the training dataset.
+  val2017:Contains the testing dataset.
 # Trained model
 Table 1 Comparing LSNet with state-of-the-art networks in terms of AP50, speed, and model size.
 | Network | Speed (FPS) | AP50 (%) | Model size (MB) |
