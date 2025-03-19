@@ -26,6 +26,17 @@ The Environment：
 * matplotlib
 * GCC >= 4.9
 * OpenCV
+* numpy
+* scipy
+* Pillow
+* cython
+* scikit-image
+* tensorflow>=1.3.0
+* keras>=2.0.8
+* opencv-python
+* h5py
+* imgaug
+* IPython[all]
 + CUDA >= 9.0
 
 a. Clone the PointRCNN repository.
@@ -73,6 +84,8 @@ LSNet
 │   │   ├── predictor.py
 │   │   ├── test.py
 │   │   ├── train_net.py
+│   │   ├── requirements.txt
+│   │   ├── setup.py
 ```
 * Directions: **annotations**：xxx.json contains the labeled data information for the training set and validation set.
   **thing_train2017**:xxx.npz is used to store the data information of the training dataset, stored in a numpy array format.
