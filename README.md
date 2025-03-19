@@ -100,26 +100,26 @@ LSNet
   **val2017**:Contains the testing dataset.
 # Trained model
 Table 1 Comparing LSNet with state-of-the-art networks in terms of AP50, speed, and model size.
-| Network | Speed (FPS) | AP50 (%) | Model size (MB) |
-| --- | --- | --- | --- |
-| BoxInst | 20 | 60.7 | 406 |
-| Mask R-CNN | 18 | 61.0 | 483 |
-| SOLOv2 | 14 | 63.5 | 499 |
-| E2EC | 30 | 62.9 | 113 |
-| SOLQ | 12 | 60.5 | 476 |
-| LSNet | 31 | 65.1 | 274 |
+| Network | Speed (FPS) | AP50 (%) | APs (%) | mIoU (%) | Model size (MB) |
+| --- | --- | --- | --- | --- | --- |
+| BoxInst | 20 | 60.7 | 15.1 | 80.1 | 406 |
+| Mask R-CNN | 18 | 61.0 | 17.2 | 80.6 | 483 |
+| SOLOv2 | 14 | 63.5 | 19.3 | 81.7 | 499 |
+| E2EC | 30 | 62.9 | 14.6 | 81.0 | 113 |
+| SOLQ | 12 | 60.5 | 18.7 | 80.8 | 476 |
+| LSNet | 31 | 65.1 | 20.5 | 83.5 | 274 |
 
 ![img](https://github.com/xiaoyjing/LSNet/blob/master/img/5.png)
 Fig. 5. (a) total loss and (b) mask loss of the LSNet compared with the other state-of-the-art networks.
 
 Table 2 Training results of ablation experiments.
-| Network | Speed (FPS) | AP50 (%) | Model size (MB) |
-| --- | --- | --- | --- |
-| LSNet_R50 | 20 | 58.3 | 189 |
-| LSNet_R101 | 11 | 64.2 | 364 |
-| LSNet_RP | 32 | 59.1 | 227 |
-| LSNet_RA | 16 | 63.7 | 257 |
-| LSNet | 31 | 65.1 | 274 |
+| Network | Speed (FPS) | AP50 (%) | APs (%) | Model size (MB) |
+| --- | --- | --- | --- | --- |
+| LSNet_R50 | 20 | 58.3 | 17.3 | 189 |
+| LSNet_R101 | 11 | 64.2 | 18.0 | 364 |
+| LSNet_RP | 32 | 59.1 | 17.8 | 227 |
+| LSNet_RA | 16 | 63.7 | 19.8 | 257 |
+| LSNet | 31 | 65.1 | 20.7 | 274 |
 
 Figure 6 shows the influence of the number of slices on speed and AP50, where the number of slices is proportional to the speed and the largest AP50 is 65.1% when the number of slices equals 4. Therefore, the number of slices M was set to 4.\
 ![img](https://github.com/xiaoyjing/LSNet/blob/master/img/6.png)\
