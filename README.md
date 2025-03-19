@@ -107,7 +107,9 @@ Table 1 Comparing LSNet with state-of-the-art networks in terms of AP50, speed, 
 | SOLOv2 | 14 | 63.5 | 19.3 | 81.7 | 499 |
 | E2EC | 30 | 62.9 | 14.6 | 81.0 | 113 |
 | SOLQ | 12 | 60.5 | 18.7 | 80.8 | 476 |
-| LSNet | 31 | 65.1 | 20.5 | 83.5 | 274 |
+| Swin Transformer | 24 | 65.4 | 20.5 | 80.8 | 229 |
+| SegFormer | 30 | 64.9 | 20.2 | 83.4 | 157 |
+| LSNet | 31 | 65.1 | 20.7 | 84.5 | 274 |
 
 ![img](https://github.com/xiaoyjing/LSNet/blob/master/img/5.png)
 Fig. 5. (a) total loss and (b) mask loss of the LSNet compared with the other state-of-the-art networks.
