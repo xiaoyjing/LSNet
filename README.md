@@ -43,7 +43,14 @@ a. Clone the PointRCNN repository.
 ```
 git clone https://github.com/xiaoyjing/LSNet.git
 ```
-b. Install the dependent python libraries like tqdm, tensorboardX  etc.
+b. Install dependencies.
+```
+pip3 install -r requirements.txt
+```
+c. Run setup from the repository root directory.
+```
+python3 setup.py install
+```
 # Dataset preparation
 Please download the fire-smoke dataset and organize the downloaded files as follows:
 ```
