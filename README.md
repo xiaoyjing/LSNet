@@ -109,7 +109,7 @@ Table 1 Comparing LSNet with state-of-the-art networks in terms of AP50, speed, 
 | SegFormer | 30 | 64.9 | 20.2 | 83.4 | 157 |
 | LSNet | 31 | 65.1 | 20.7 | 84.5 | 274 |
 
-![img](https://github.com/xiaoyjing/LSNet/blob/master/img/7.png)
+![img](https://github.com/xiaoyjing/LSNet/blob/master/img/8.png)
 Fig. 5. (a) total loss and (b) mask loss of the LSNet compared with the other state-of-the-art networks.
 
 Table 2 Training results of ablation experiments.
